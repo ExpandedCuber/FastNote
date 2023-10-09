@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Note1 - FastNote</title>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <a href="../home/home.html"><h1 class="title">FastNote</h1></a>
+
+        <div class="fontselector">
+            <label for="fontSelector">Choose a font:</label>
+            <select id="fontSelector">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="Verdana, sans-serif">Verdana</option>
+                <option value="Georgia, serif">Georgia</option>
+                <option value="Times New Roman, serif">Times New Roman</option>
+            </select>
+        </div>
+        <div class="fontSize">
+            <label for="fontSelector">Font size:</label>
+                <input id="fontSize"></input>
+            <button onclick="setFontSize()" class="change">Set</button>
+        </div>
+
+        <div class="editor-container">
+            <textarea class="editor" id="editor"></textarea>
+            <button id="saveButton">Save</button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor {
+    width: 40vw;
+    height: 80vh;
+    overflow: scroll;
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+    text-align: left;
+    vertical-align: top; /* Align text to the top */
+    border-style: none;
+}
+
+/* Set a placeholder style for the input field */
+.editor::placeholder {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    vertical-align: top; /* Align placeholder text to the top */
+}
+
+.title {
+    position: absolute;
+    font-size: 5vw;
+    top: -8%;
+    left: 2%;
+    color: white;
+}
+
+.fontselector {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 3%;
+    left: 30%;
+    color: white;
+}
+
+#fontSelector {
+    width: 8vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+.fontSize {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 3%;
+    left: 54.6%;
+    color: white;
+}
+
+#fontSize {
+    width: 8vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+.change {
+    width: 2vw;
+    height: 2vw;
+}
